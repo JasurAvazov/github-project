@@ -1,0 +1,48 @@
+@import './fonts.css';
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat';
+}
+.header{
+    background-color: black;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 15px;
+    max-width: 1200px;
+    margin: auto;
+}
+.logo img{
+    max-height: 40px;
+}
+.header input[type=text] {
+  float: right;
+  height: 35px;
+  padding: 0 15px;
+  border: none;
+  font-size: 17px;
+  outline: none;
+  background-color: #252525;
+  color: white;
+  border-radius: 15px;
+  font-size: 15px;
+}
+.header input[type=text]::placeholder{
+    color: white;
+    font-weight: 600;
+}
+.header__nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+.header__nav-button{
+    font-size: 16px;
+    color: white;
+    text-decoration: none;    
+}
