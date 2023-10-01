@@ -66,12 +66,16 @@ body {
 
 .left-side{
 width: 400px;
-background-color:;
+background-color:black;
+margin-left: 10px;
 }
 .products .container{
     padding: 50px 15px
 }
-
+.right-side{
+    width: 400px;
+background-color:black;
+}
 .products .wrapper {
     display: flex;
     align-items: center;
